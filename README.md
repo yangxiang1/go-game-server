@@ -452,39 +452,11 @@ func main() {
  // 启动游戏服务
  reactor.Run()
 }
-```
 
-## 七、部署到GitHub步骤
 
-### 1. 本地初始化Git
 
-```Bash
 
-# 进入项目目录
-cd go-game-mini-framework
-
-# 初始化Git仓库
-git init
-
-# 添加所有文件
-git add .
-
-# 提交代码
-git commit -m "init: 游戏服务端Mini框架初始版本"
-```
-
-### 2. 关联GitHub仓库
-
-```Bash
-
-# 创建远程仓库（先在GitHub网页端创建空仓库）
-git remote add origin https://github.com/your-username/go-game-mini-framework.git
-
-# 推送到GitHub
-git push -u origin main
-```
-
-## 八、项目亮点与面试加分点
+## 七、项目亮点
 
 1. **网络模型**：参考Netty的Reactor模型设计，体现对高性能网络编程的理解；
 
@@ -517,4 +489,4 @@ git push -u origin main
 ### 总结
 
 本项目聚焦「轻量化、实战性」，既体现Go语言的并发优势，又结合游戏服务端核心技术（网络通信、数据存储、业务分层），部署到GitHub后可作为简历中的核心项目亮点。面试时可重点围绕「Reactor网络模型」「MySQL+Redis数据分层」「高并发连接处理」这三个核心点展开，突出你的技术设计能力和游戏服务端的理解。
-> （注：文档部分内容可能由 AI 生成）
+
